@@ -52,4 +52,6 @@ const mapStateToProps=state=>({
     adminScreenings:state.adminScreenings
 })
 
+
+
 export default connect(mapStateToProps,{getScreenings}) (AdminScreeningList);

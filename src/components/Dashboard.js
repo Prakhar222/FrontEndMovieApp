@@ -11,7 +11,9 @@ class Dashboard extends Component {
        {
            this.props.history.push("/sign-up");
        }
+      
 
+       
         return (
             <div>
                 <h1><b><center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Movie list</center></b></h1>
